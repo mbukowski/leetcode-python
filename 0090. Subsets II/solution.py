@@ -50,9 +50,11 @@ class Solution:
 
 
 def main():
+    input = [1, 2, 2]
+    input = [4,4,4,1,4]
+
     s = Solution()
-    res = s.subsetsWithDup([1, 2, 2])
-    # res = s.subsetsWithDup([4,4,4,1,4])
+    res = s.subsetsWithDup(input)
     print(res)
 
 if __name__ == "__main__":

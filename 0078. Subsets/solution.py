@@ -101,8 +101,10 @@ class Solution:
 #         return res
 
 def main():
+    input = [1, 2, 3]
+
     s = Solution()
-    res = s.subsets([1, 2, 3])
+    res = s.subsets(input)
     print(res)
 
 if __name__ == "__main__":

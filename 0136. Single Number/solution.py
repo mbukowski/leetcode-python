@@ -47,9 +47,11 @@ class Solution:
         
 
 def main():
+    input = [4, 1, 2, 2, 1]
+
     s = Solution()
-    v = s.singleNumber([4, 1, 2, 2, 1])
-    print(v)
+    res = s.singleNumber(input)
+    print(res)
 
 if __name__ == "__main__":
     main()

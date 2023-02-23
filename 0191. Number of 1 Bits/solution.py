@@ -37,9 +37,11 @@ class Solution:
 #         return res
 
 def main():
+    input = 7
+
     s = Solution()
-    v = s.hammingWeight(7)
-    print(v)
+    res = s.hammingWeight(input)
+    print(res)
 
 if __name__ == "__main__":
     main()

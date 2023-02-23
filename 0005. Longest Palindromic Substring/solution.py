@@ -33,9 +33,11 @@ class Solution:
         return res
 
 def main():
+    input = 'babad'
+    # input = 'bbccd'
+
     s = Solution()
-    # res = s.longestPalindrome('babad')
-    res = s.longestPalindrome('bbccd')
+    res = s.longestPalindrome(input)
     print(res)
 
 if __name__ == "__main__":
