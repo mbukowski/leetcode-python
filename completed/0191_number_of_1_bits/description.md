@@ -38,6 +38,6 @@ If this function is called many times, how would you optimize it?
 
 ## Summary
 
-### Solution
 
-https://leetcode.com/problems/number-of-1-bits/solutions/127846/number-of-1-bits/
+## Solution
+https://leetcode.com/problems/merge-sorted-array/editorial/?source=submission-ac
