@@ -43,6 +43,15 @@ If next element in first list is not null add it to the total summ. Do the same 
 
 - Space complexity: linear $O(n)$ - we create new linked list, but if we reuse existing one we could make it without declaring extra space
 
+### Follow up
+
+What if the the digits in the linked list are stored in non-reversed order? For example:
+
+`(3 → 4 → 2) + (4 → 6 → 5) = 8 → 0 → 7`
+
+Simple solution would be to reverse the order and use a general solution
+Another possibility is to add numbers as we would do and in case we encounter a carry 1 we correct all remaining values
+
 ### Solution
 
 https://leetcode.com/problems/add-two-numbers/solutions/127833/add-two-numbers/
