@@ -37,7 +37,9 @@ Note that the five elements can be returned in any order.
 It does not matter what you leave beyond the returned k (hence they are underscores).
  
 ## Constraints:
-
 0 <= nums.length <= 100
 0 <= nums[i] <= 50
 0 <= val <= 100
+
+## Solution
+https://leetcode.com/problems/remove-element/editorial/?envType=study-plan-v2&envId=top-interview-150
