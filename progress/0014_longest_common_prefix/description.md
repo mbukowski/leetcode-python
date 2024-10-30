@@ -23,5 +23,6 @@ strs[i] consists of only lowercase English letters.
 - are these lists sorted? can they contain duplicates, can we convert them to some other representation?
 - shall we sort first? extra time, I don't think we need it - would definitely speed up finding common, but if unsorted then maybe even faster?
 - if we sort them first we could start with shortest word - common prefix cant' be longer that shortest word -> again not sure on sorting
+- I could have added handling special cases as a solution, that way should work quite nice, like edge cases
 
 https://leetcode.com/problems/longest-common-prefix/editorial/?envType=study-plan-v2&envId=top-interview-150
