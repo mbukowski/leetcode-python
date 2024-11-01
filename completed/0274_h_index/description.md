@@ -28,3 +28,8 @@ n == citations.length
 - storing max_citations can speed up in case we have plenty of low values
 - additionally if we would use a sorted map we could use that structure instead of array -> no empty fields
 - I don't see a way to implement it properly without additional structure
+- it turned out that it was a nice solution, keep in mind that our solution is better as we don't track for every possible value
+- solution with sorting is also correct but as I wrote complexity is little higher, and important about that is that sorting in descending order helps
+
+## Solution
+https://leetcode.com/problems/h-index/editorial
