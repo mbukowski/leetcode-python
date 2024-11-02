@@ -7,6 +7,8 @@ Preparation and solution for Leet Code in python
 - can be represented in better way data, 
 - allocate memory or in place,
 - start with naive solution may bring a good solution in long run
+- %, /, // - modulo, int and float division
+
 
 ## Code Snippets 
 init multidimensional table inline
